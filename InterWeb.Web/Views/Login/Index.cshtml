@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Master/_LoginPage.cshtml";
+}
+
+<div class="row" style="margin-top:100px;">
+    <div class="col-sm-8 col-md-6 col-lg-4 col-sm-offset-2 col-md-offset-3 col-lg-offset-4">
+        <form action="/Login/Authentication" method="post">
+            @Html.AntiForgeryToken()
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h3>Login</h3>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="txtEmail" placeholder="Email" name="user" value="@ViewBag.User">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="txtSenha" placeholder="Senha" name="password">
+                    </div>
+                    <div class="pull-right">
+                        <input class="btn btn-acesso-verde" id="btnLogin" type="submit" value="Entrar">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+

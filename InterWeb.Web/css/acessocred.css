@@ -1,0 +1,100 @@
+﻿thead
+{
+    background-color:#787878;
+    color:#ffffff;
+}
+
+tbody
+{
+    background-color:#F5F5F5;
+}
+
+a
+{
+    color:#28B6B2;
+}
+
+a:hover
+{
+    color:#787878;
+}
+
+.acesso-link
+{
+    color:#000000;
+}
+
+.btn-acesso-verde
+{
+    background-color:#28B6B2;
+    color:#ffffff;
+}
+
+.btn-acesso-laranja
+{
+    background-color:#FF9E16;
+    color:#ffffff;
+}
+
+.btn-acesso-roxo
+{
+    background-color:#8A73B4;
+    color:#ffffff;
+}
+
+.btn-acesso-laranja:hover
+{
+    background-color:#787878;
+    color:#ffffff;
+}
+
+.btn-acesso-roxo:hover
+{
+    background-color:#787878;
+    color:#ffffff;
+}
+
+.btn-acesso-verde:hover
+{
+    background-color:#787878;
+    color:#ffffff;
+}
+
+.navbar-fixed-top
+{
+    background-color:#ffffff;
+}
+
+.navbar-fixed-top img
+{
+    padding:20px;
+}
+
+.navbar-fixed-bottom
+{
+    background-color:#F5F5F5; 
+    margin-top:20px;
+}
+
+.navbar-fixed-bottom img
+{
+    padding-bottom:0px;
+    padding-left:20px;
+    padding-right:15px;
+    padding-top:10px;
+}
+
+.container-title
+{
+    margin-top:55px; 
+    background-color:#F5F5F5; 
+    padding-bottom:20px;
+}
+
+.container-body
+{
+    padding-top:20px;
+    padding-bottom:60px;
+}
+
+

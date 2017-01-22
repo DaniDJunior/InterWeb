@@ -1,0 +1,50 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="~/img/ico.ico" />
+    <title>ACESSOCRED</title>
+
+    <link rel="stylesheet" href="~/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/font-awesome.css" />
+    <link rel="stylesheet" href="~/css/acessocred.css" />
+
+    <script src="~/js/jquery-3.1.1.min.js"></script>
+    <script src="~/js/bootstrap.js"></script>
+
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault(); $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="row text-left">
+                <a href="Dashboard.aspx"><img src="~/img/logo_color.png" style="width:250px;" alt="Logo da Acesso" /></a>
+            </div>
+        </div>
+    </nav>
+    <div class="container" style="margin-top:50px; margin-bottom:40px;">
+        @RenderBody()
+    </div>
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <div class="row text-left">
+                <p style="padding:10px;"><img src="~/img/logo_color.png" style="width:100px; padding:0px; padding-right:10px;" alt="Logo da Acesso" />Todos os direitos reservados.  |  2016</p>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>

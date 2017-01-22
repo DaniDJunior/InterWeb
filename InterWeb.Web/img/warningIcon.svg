@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>32F92ADE-AF7E-4332-832B-E944C91A6DB3</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="error" transform="translate(-298.000000, -364.000000)" fill="#FF7584">
+            <g id="text-field-+-warning" transform="translate(44.000000, 358.000000)">
+                <g id="warning" transform="translate(1.000000, 6.000000)">
+                    <g id="Material/Light/Text-warning-icon" transform="translate(253.000000, 0.000000)">
+                        <path d="M0.5,16 L17.5,16 L9,1 L0.5,16 L0.5,16 Z M10,14 L8,14 L8,12 L10,12 L10,14 L10,14 Z M10,11 L8,11 L8,7 L10,7 L10,11 L10,11 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
